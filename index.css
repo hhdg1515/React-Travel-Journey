@@ -8,21 +8,22 @@ body {
 }
 
 .container {
-    margin: 24px 24px;
+    margin: 1.5em 1.5em;
 }
 
 header {
-    background: black;
+    background: #2B283A;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: whitesmoke;
     height: 55px;
 }
 
 header > img {
-    width: 24px;
-    margin-right: 7px;
+    width: 1.5em;
+    margin-right: 0.625em;
+    margin-left: 1.5em;
 }
 
 header > h1 {
@@ -32,21 +33,21 @@ header > h1 {
 
 article.journal-entry {
     display: flex;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 article.journal-entry .marker {
-    width: 7px;
-    margin-right: 4px;
+    width: 0.5em;
+    margin-right:0.25em;
 }
 
 article.journal-entry .main-image-container {
-    width: 125px;
-    height: 168px;
+    width: 7.8em;
+    height: 10.5em;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 0.33em;
     flex-shrink: 0;
-    margin-right: 19px;
+    margin-right: 1.125em;
 }
 
 article.journal-entry .main-image {
@@ -57,17 +58,20 @@ article.journal-entry .main-image {
 
 .info-container span.state {
     text-transform: uppercase;
-    font-size: 0.7rem;
-    margin-right: 12px;
+    font-size: 0.75rem;
+    margin-right: 1.175em;
 }
 
 .info-container a {
-    color: brown;
+    color: #6F6D76;
     font-size: 0.7rem;
+    text-decoration: none;
 }
 
 .info-container a:hover {
     color: navy;
+    text-decoration: underline;
+    transition: all 100ms ease-in;
 }
 
 .info-container a:visited {
@@ -75,17 +79,17 @@ article.journal-entry .main-image {
 }
 
 .info-container h2.entry-title {
-    margin-top: 12px;
+    margin-top:0.6em;
     font-size: 1.25rem;
 }
 
 .info-container p.trip-dates {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .info-container p.entry-text {
-    line-height: 1.75;
-    font-size: 0.8rem;
+    line-height: 1.65;
+    font-size: 0.85rem;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
